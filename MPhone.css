@@ -1,0 +1,176 @@
+.banner img {display: block;
+                margin: 0px auto;
+                margin-top: 30px;
+                margin-bottom: 30px;}
+.container {justify-content: center;
+            max-width: 1280px;
+            padding: 2px;
+            margin: auto;
+            }
+.AAA {display: grid;
+      grid-template-columns: auto auto auto auto ;
+      gap: 10px;
+      }
+.product-info {margin-top: 20px;
+                text-align: center;
+                height: 400px;}
+.product-card {border: 2px solid grey;
+                background-color: white;}
+
+.product-card .product-info .trans img {object-fit: contain;
+                                        height: 290px;
+                                        width: 320px;
+                                        cursor: pointer;
+                                        }
+
+.product {position: relative;
+          }
+
+.product img {transition: all 0.4s;
+              transform: scale(1);}
+                                
+
+.product-info .trans:hover .product img{transform: scale(1.1);
+                                        }
+
+.product-card .product-info .trans .cart img {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    display: block;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.cart {
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+.trans:hover .cart{
+    opacity: 1;
+}
+
+.product-price {color: red;}
+
+.product-info h5 {margin: 0;
+                    padding: 0;
+                    font-size: medium;
+                    margin-top: 20px;}
+
+.product-card .product-info .product-title :hover {
+    text-decoration: underline 1px solid black;
+}
+.product-card .product-info .product-title :active {
+    color:rgb(5, 148, 0);
+}
+
+.product-card .product-info .product-title a{text-decoration: none;}
+
+.product-info h6 {margin: 0;
+    padding-top: 4px;
+    font-size: small;
+    margin-top: 3px;}
+
+body{
+    background-color: rgb(212, 212, 185);
+}
+
+
+h1{
+    color: red;
+    line-height: 200%;
+    font-family: Georgia, 'Times New Roman',serif;
+    display: inline;
+    margin-left: 40px;
+}
+
+header {
+    background-color:rgb(242, 243, 202);
+}
+
+header nav{
+    line-height: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    position: absolute; 
+    right: 40px;
+    top: 15px;
+    font-weight: bold;
+}
+nav ul {list-style-type: none;
+    margin: 0;
+    font-size: x-large;
+}
+nav ul ul {
+position: absolute;
+display: none;
+background-color: rgb(255, 253, 158);
+padding: 0%;
+text-decoration: none;
+font-size: small;
+}
+nav ul ul li {
+display: block;
+text-align: left;
+width: auto;
+border: 1px solid black;
+}
+nav li:hover ul {display:inline-block;}
+
+nav li { padding: 0.5em;
+display: inline-block;
+}
+nav a { text-decoration: none;
+ display: block;
+}
+
+nav a:visited { color: #008f00;}
+nav a:hover {  color: #ff0000;}
+nav ul ul li {font-size: larger;}
+
+footer{
+    background-color: rgb(242, 243, 202);
+    position: relative;
+    bottom: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin: auto;
+    font-size: large;
+}
+
+footer h2{
+    color: red;
+    background-color: rgb(244, 239, 233);
+    text-align: center;
+    padding: 15px;
+}
+
+footer th{
+    color: black;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+footer table{
+    margin-left: 40px;
+}
+
+footer ul li{
+    list-style: none;
+ }
+
+.table1{
+    position:relative;
+    top: -30px;
+}
+
+.table2{
+    position:relative;
+    top: 5px;
+    padding-left: 200px;
+}
+
+#container{
+    font-size: small;
+    font-family: Arial;
+}
